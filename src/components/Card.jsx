@@ -7,7 +7,7 @@ const Card = ({ plan }) => {
     <Link
       to={"/workout"}
       style={{ backgroundImage: "url(" + plan.image + ")" }}
-      className="w-80 sm:w-96 h-80 bg-no-repeat bg-cover 
+      className="w-72 sm:w-96 h-80 bg-no-repeat bg-cover 
       bg-start rounded-xl flex items-end p-1 my-5
       hover:shadow-md hover:shadow-gray-500
       transition-all duration-300 hover:scale-105"

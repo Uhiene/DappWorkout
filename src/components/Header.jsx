@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <Link to={"/"} className="flex justify-between">
-      <div className="flex items-center text-white text-xl sm:text-2xl ">
+      <div className="flex items-center text-white text-sm sm:text-2xl ">
         <h1>DappWorkout </h1>
         <CgGym />
       </div>

@@ -22,7 +22,7 @@ const HomePage = () => {
   return (
     <>
       <div
-        className="bg-no-repeat bg-cover bg-center p-10"
+        className="bg-no-repeat bg-cover bg-center p-5 sm:p-10"
         style={{
           backgroundImage: `linear-gradient(
           45deg,
